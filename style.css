@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Bloom';
+    src: url(fonts/BeautifulBloom-Regular.ttf);
+}
+
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+/* Header Banner Image */
+.header-area{
+    background-image: url(images/banner.png);
+}
+
+
+@media screen and (max-width : 600px) {
+    .header-area{
+        background-image: url(images/phone.png);
+    }
+}
